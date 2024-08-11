@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 24px;
+    color: #262626;
+}
+
+.navbar input[type="text"] {
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 5px;
+    width: 215px;
+    font-size: 14px;
+}
+
+.nav-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.profile-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+}
+
+.profile-info {
+    margin-left: 30px;
+}
+
+.profile-username {
+    display: flex;
+    align-items: center;
+}
+
+.profile-username h2 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.profile-username .btn {
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.profile-stats {
+    margin: 20px 0;
+}
+
+.profile-stats span {
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+.profile-bio {
+    font-size: 14px;
+}
+
+.posts-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.posts-section .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+}

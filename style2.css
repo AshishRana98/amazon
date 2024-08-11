@@ -1,0 +1,33 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-image: url("grm_photo.jpg");
+    background-size: cover;
+    
+}
+#box2{
+    background-image: url("grm_photo.jpg");
+    background-size: cover;
+    
+}
+#box3{
+    background-image: url("grm_photo.jpg");
+    background-size: cover;
+    
+}
+#box4{
+    background-image: url("grm_photo.jpg");
+    background-size: cover;
+    
+}
+body{
+    background-image: url("grm_photo.jpg");
+    background-size: cover;
+    
+}

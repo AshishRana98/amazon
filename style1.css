@@ -1,0 +1,27 @@
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+
+}
+button{
+    background: #f08804;
+}
+
+
+
+.contentbox{
+    width: 100px;
+    height: 100px;
+    border: 2px solid  black;
+    display: inline-block;
+    
+}
+#content{
+    height: 505px;
+}
+
+footer{
+    background-color: #f08804;
+    text-align: center;
+}
+
